@@ -1,0 +1,41 @@
+body {
+    font: 15px/3 Verdana Helvetica sans-serif solid bold;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+table {
+    table-layout: fixed;
+}
+
+tr {
+    line-height: 30px;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+thead {
+    background: gray;
+    font-weight: bold;
+    border: none;
+    border-color: transparent;
+}
+
+table thead td{
+    text-align: left;
+}
+
+table tr:nth-child(odd) td{
+    background: rgb(241, 241, 241)
+}
+
+table tr:hover td {
+	background: black;
+	color: #FFF;
+	border-color: transparent;
+}
