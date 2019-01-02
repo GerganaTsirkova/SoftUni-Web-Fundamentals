@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia');
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 20px;
+}
+article {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    background: rgb(51, 102, 153);
+    border-radius: 1rem;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5%;
+    padding: 5%;
+}
