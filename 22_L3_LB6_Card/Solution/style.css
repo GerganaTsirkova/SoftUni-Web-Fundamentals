@@ -1,0 +1,61 @@
+
+
+body{
+    background: rgb(238, 238, 238);
+    font-family: Georgia, sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.card{
+    background: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    max-width: 26rem;
+    margin: 3%;
+    overflow: hidden;
+    box-shadow: 0 0 50px #a6a6a6;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.card .media{
+    position: relative;
+    overflow: hidden;
+}
+
+.card .media img{
+    width: 100%;
+    height: auto;
+}
+
+.card .media img:after{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.card .content{
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.card .content h3{
+    margin: 0;
+}
+
+.card .content a{
+    color:white;
+    background: green;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    float: right;
+    border-radius: 0.3rem;
+}
+
+
+

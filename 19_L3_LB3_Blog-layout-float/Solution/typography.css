@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+body {
+    font: 14px/1.5 Helvetica, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* padding: 5%, 0%, 5%, 0%; */
+}
+
+body>article:nth-child(10)>ul>li:nth-child(1) {
+    list-style-type: square;
+}
+
+body>article:nth-child(10)>ul>li:nth-child(2) {
+    list-style-type: square;
+}
+
+body>article:nth-child(10)>ul>li:nth-child(2)>ul>li:nth-child(2)>ul>li {
+    list-style-type: disc;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(220, 220, 220);
+}
+
+body>article:nth-child(10)>table>thead>tr {
+    font-style: bold;
+    background-color: rgb(160, 160, 160);
+}
+
+blockquote {
+    font: italic;
+    border-left: 4px solid rgb(221, 221, 221);
+    margin: 1.5em 20px;
+    padding: 0.5em 30px;
+}
+
+body > article:nth-child(10) > blockquote > p:nth-child(3){
+    text-align: right;
+}
