@@ -1,0 +1,52 @@
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+@import url('../../GLOBAL-CSS-SETTINGS/reset.css');
+body {
+    margin: 0 auto;
+}
+
+div.viewport {
+    height: 800px;
+    width: 100%;
+}
+
+div.viewport:nth-child(1) {
+    background: linear-gradient( to right, #006699, #00d199);
+    position: relative;
+}
+
+div.viewport:nth-child(2) {
+    background: linear-gradient( to right, #d10f8a, #f78217);
+    position: relative;
+}
+
+
+/* .card{
+    position: relative;
+} */
+
+.card {
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+div:nth-child(1)>section>i {
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: -20%;
+}
+
+div:nth-child(2)>section>i {
+    color: white;
+    position: absolute;
+    bottom: 3%;
+    right: -20%;
+}

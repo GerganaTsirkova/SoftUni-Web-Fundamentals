@@ -1,0 +1,99 @@
+/* @import url('../../GLOBAL-CSS-SETTINGS/reset.css'); */
+
+@import url('typography.css');
+body {
+    font-size: 16px;
+    margin: 5% 15%;
+    background: rgb(238, 238, 238);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    width: 20%;
+    float: left;
+}
+
+img {
+    display: inline-block;
+    padding: 0.25rem;
+    background: rgb(238, 238, 238);
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+blockquote {
+    float: left;
+    border-left: 4px solid lightgrey;
+}
+
+aside section nav ul,
+aside section nav ul a,
+{
+    color: green;
+    list-style-type: none;
+}
+
+aside section nav ul li,
+aside section nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+p.site-title {
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.picture1 {
+    width: 18%;
+    height: auto;
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.one {
+    float: right;
+}
+
+.picture2 {
+    width: 18%;
+    height: auto;
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.three,
+.two,
+.after {
+    float: left;
+}
+
+aside section nav ul li a {
+    color: green;
+    text-decoration: none;
+}

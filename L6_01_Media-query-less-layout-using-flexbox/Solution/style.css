@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+    display: flex;
+    padding: 1rem 3vw;
+    flex-flow: row wrap;
+    /* align-content: space-between; */
+}
+
+header,
+footer {
+    width: 90vw;
+    height: 20vh;
+}
+
+main {
+    width: 65vw;
+    height: 40vh;
+}
+
+aside {
+    width: 22.9vw;
+    height: 40vh;
+}
+
+header,
+main,
+aside,
+footer {
+    display: block;
+    background: white;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header,
+.main,
+.aside,
+.footer {
+    display: block;
+}
