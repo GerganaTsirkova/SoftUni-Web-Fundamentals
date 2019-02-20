@@ -1,0 +1,30 @@
+body {
+    background: lightgrey;
+    width: 80vw;
+    margin: 4rem auto;
+    box-sizing: border-box;
+}
+
+body,
+ul,
+li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    width: 30%;
+    height: 550px;
+    border: 8px solid black;
+    background: white;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+li img {
+    padding: 1.5rem 1rem;
+    width: 100%;
+    height: auto;
+}

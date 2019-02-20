@@ -1,0 +1,51 @@
+@import url('typography.css');
+body {
+    width: 100vw;
+    height: 100%;
+    line-height: 1.5;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 238);
+    overflow: hidden;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 1.5rem;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+main h2 {
+    margin-top: 1.5rem;
+}
+
+main h2,
+main p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    margin-bottom: -50rem;
+    padding: 1.5rem;
+    flex-shrink: 0;
+}

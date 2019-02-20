@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20vh;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+div {
+    width: 100px;
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+    overflow: hidden;
+    box-shadow: 2px 0 1rem 2px rgba(0, 0, 0, 0.5);
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+div:hover,
+div:focus {
+    width: 400px;
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+div:hover img,
+div:focus img {
+    width: 95%;
+    height: auto;
+}
+
+div img {
+    padding: 0 1rem;
+}

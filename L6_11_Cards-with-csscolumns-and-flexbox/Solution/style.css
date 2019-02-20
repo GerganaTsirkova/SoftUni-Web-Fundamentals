@@ -1,0 +1,53 @@
+body {
+    background-color: #eee;
+    margin: 6rem 10rem
+}
+
+.cards-layout {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    width: 100%;
+    margin: 3rem 1rem
+}
+
+.masorny {
+    display: flex;
+}
+
+
+/* arrange the stuff in the articles: */
+
+article {
+    width: 20%;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: flex-start;
+}
+
+article p {
+    padding: 0 1rem;
+}
+
+article header {
+    padding: 0;
+}
+
+article footer {
+    border-top: 2px solid gray;
+    margin-top: auto
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}

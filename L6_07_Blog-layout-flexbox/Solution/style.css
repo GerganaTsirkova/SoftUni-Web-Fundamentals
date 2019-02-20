@@ -1,0 +1,102 @@
+@import url('typography.css');
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    width: 80%;
+    margin: 5rem auto;
+    box-sizing: border-box;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 20%;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+header p.site-title {
+    font-size: 2.5rem;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    padding: 0.25rem;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 1rem;
+    width: 18%;
+    height: auto;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column
+}
+
+main section h1,
+main section h2 {
+    width: 100%;
+}
+
+
+/* first */
+
+main section:nth-child(1) img {
+    margin-left: auto;
+}
+
+
+/* second */
+
+blockquote {
+    font-family: Georgia, serif;
+    margin-left: auto;
+    border-left: 4px solid lightgrey;
+}
+
+aside nav ul {
+    padding-left: 2rem;
+}
+
+aside nav ul h3 {
+    padding-left: 0;
+}
+
+aside nav ul li {
+    list-style-type: disc;
+}
+
+aside section nav ul li a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+/* third */
+
+main section:nth-child(3) img {
+    margin-right: auto;
+}
