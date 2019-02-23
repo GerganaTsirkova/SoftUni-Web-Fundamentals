@@ -1,0 +1,80 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+}
+
+html {
+    font: 14px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+body,
+legend,
+label,
+input,
+i {
+    font: inherit;
+}
+
+body {
+    padding: 3rem;
+}
+
+form {
+    width: 25rem;
+}
+
+legend {
+    border: 1px solid gray;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    background: white;
+}
+
+p {
+    margin: 0 2rem;
+    padding-bottom: 0;
+}
+
+p:first-of-type {
+    margin-top: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset {
+    background: #f2f2f2;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+.field-input {
+    background: white;
+    display: block;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e6e6e6;
+    margin: 0 2rem 1.5rem 2rem;
+}
+
+.field-input:hover,
+.field-input:focus {
+    border-color: green;
+    color: green;
+}
+
+input[type="submit"] {
+    padding: 0.3rem 0.5rem;
+    border: 1px solid gray;
+    margin: 0 0 1.5rem 2rem;
+}
