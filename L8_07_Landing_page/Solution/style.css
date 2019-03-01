@@ -1,0 +1,46 @@
+@import url('typography.css');
+@import url('reset.css');
+@import url('buttons.css');
+@import url('layout.css');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+header,
+footer,
+main {
+    background: #e6e6e6;
+}
+
+.Testimonials {
+    background-image: linear-gradient(130deg, #ebebeb 5.36%, #fafafa 5.36%, #fafafa 50%, #ebebeb 50%, #ebebeb 55.36%, #fafafa 55.36%, #fafafa 100%);
+    background-size: 28.00px 33.37px;
+}
+
+.Sign-up,
+.Sign-up-container {
+    width: 100%;
+    background: #800080;
+}
+
+
+/* 
+header styles */
+
+.nav-left h1 {
+    color: #800080;
+}
+
+
+/* main entry-container */
+
+.Newsletter {
+    background: #800080;
+    color: white;
+}
+
+fieldset .text {
+    border-color: #800080;
+}

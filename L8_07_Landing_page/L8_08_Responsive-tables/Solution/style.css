@@ -1,0 +1,63 @@
+@import url("typography.css");
+@import url("reset.css.css");
+body {
+    margin: 3rem 4rem;
+    font: inherit;
+    background: whitesmoke;
+}
+
+table {
+    width: 100%;
+}
+
+tr.small {
+    display: none;
+}
+
+tbody>tr.big:nth-child(1) {
+    background: rgb(241, 241, 241);
+}
+
+tbody>tr.big:nth-child(2) {
+    background: white;
+}
+
+table thead th {
+    width: 33%;
+    padding: 0.5rem 1rem;
+    color: white;
+    background: black;
+    border-left: 1px solid white;
+    font-weight: bold;
+}
+
+table tbody tr.big td {
+    padding: 0.5rem 1rem;
+}
+
+@media (max-width:600px) {
+    thead,
+    tr.big {
+        display: none;
+    }
+    tr.small {
+        display: block;
+    }
+    tbody>tr:nth-child(3),
+    tbody>tr:nth-child(4),
+    tbody>tr:nth-child(5) {
+        background: rgb(241, 241, 241);
+        width: 100%;
+    }
+    tbody>tr:nth-child(6),
+    tbody>tr:nth-child(7),
+    tbody>tr:nth-child(8),
+    tbody>tr:nth-child(7) td {
+        background: white;
+        width: 100%;
+    }
+    tr>td {
+        border-right: none;
+        border-left: none;
+    }
+}

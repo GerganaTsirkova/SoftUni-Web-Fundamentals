@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Verdana");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5/Verdana, Tahoma, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@media (max-width:600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1440px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1920px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+body {
+    font: inherit
+}
+
+p {
+    padding-bottom: 1.5rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    line-height: 1.1;
+    margin: 0, 0, 0.5em 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.2em
+}
+
+h3 {
+    font-size: 1.9em
+}
+
+h4 {
+    font-size: 1.6em
+}
+
+h5 {
+    font-size: 1.4em
+}
+
+h6 {
+    font-size: 1.2em
+}
+
+.ampersand {
+    font-weight: bold;
+    font-size: 1.2;
+    color: black;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid rgb(221, 221, 221);
+    border-collapse: collapse;
+}
+
+tr {
+    background: rgb(241, 241, 241);
+}
+
+th {
+    text-align: left;
+    background: rgb(221, 221, 221);
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

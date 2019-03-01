@@ -1,0 +1,439 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+body {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100vw;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+/* header,
+footer {
+    margin-: 5em;
+} */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* navigation */
+
+.menu {
+    display: none;
+}
+
+.nav {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left p {
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+.nav-right,
+.nav-left {
+    display: block;
+    flex: 1;
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav-right ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main entry-container */
+
+.Need {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.entry-container {
+    display: flex;
+}
+
+.entry-text {
+    flex: 3;
+}
+
+.entry-text h2 {
+    margin-bottom: 1rem;
+}
+
+.entry-text p {
+    font-weight: bold;
+}
+
+.entry-text input {
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
+
+.entry-globus {
+    flex: 1;
+    margin-left: 3em;
+}
+
+.fa-globe-americas {
+    font-size: 11rem;
+}
+
+
+/* main team */
+
+.Team {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.Team,
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Team h2,
+.Testimonials h2 {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.Team h2::before,
+.Testimonials h2::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 130%;
+    top: 0;
+    left: 10%;
+    border-bottom: 3px solid black;
+    z-index: 1;
+    margin-bottom: 2em;
+}
+
+.members,
+.testimonials-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.member,
+.testimonial {
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member .image-container,
+.testimonial .image-container {
+    width: 8em;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.member .image-container::before,
+.testimonial .image-container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    position: relative;
+    padding-top: 75%;
+}
+
+.member .image-container img,
+.testimonial .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.member-name,
+.name {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.member .position,
+.Testimonials .position {
+    margin-bottom: 0.7em;
+}
+
+
+/* 
+main section sign up */
+
+.Sign-up-container {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.Sign-up-container h2 {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+.Sign-up-container h2::before {
+    content: '';
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    height: 100px;
+    width: 40%;
+    border-bottom: 3px solid black;
+    z-index: 1;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset .text {
+    border-radius: 0.5rem;
+    padding: 0.5em;
+    outline: none;
+    font: inherit;
+    outline: none;
+}
+
+fieldset .button {
+    text-align: center;
+    padding: 0.5em;
+    width: 30%;
+    background: white;
+    color: black;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+
+/* testimonials details */
+
+.Testimonials {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8);
+}
+
+.Testimonials h2 {
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.testimonials-container {
+    width: 70%;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.footer-items {
+    width: 70vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.us,
+.contacts,
+.sitemap {
+    flex: 1;
+    padding-right: 2em;
+    padding-left: 2em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.us h3 {
+    margin-bottom: 1.5em;
+}
+
+.sitemap h6,
+.contacts h6 {
+    margin-bottom: 1em;
+}
+
+.sitemap ul {
+    list-style-type: none;
+}
+
+.sitemap ul li {
+    margin-right: 3em;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: black;
+}
+
+.us h3 {
+    font-weight: normal;
+}
+
+footer i {
+    margin-right: 1em;
+}
+
+
+/* media */
+
+@media (min-width:200 max-width:600px) {
+    html {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-right {
+        display: none;
+    }
+    .Our.Team {
+        margin: 0;
+    }
+    .nav,
+    .Need,
+    .Our.Team,
+    .Sign-up,
+    .testimonials-container,
+    .footer-items,
+    .members {
+        width: 95vw;
+    }
+    main {
+        margin-top: 2em;
+    }
+    .Need {
+        padding-bottom: 0;
+    }
+    .member,
+    .testimonial {
+        width: 47.5vw;
+    }
+    .footer-items>section {
+        margin-bottom: 8em;
+    }
+    .footer-items {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:600 max-width:1300px) {
+    html {
+        font-size: 16px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-right {
+        display: none;
+    }
+    .Our.Team {
+        margin: 0;
+    }
+    .nav,
+    .Need,
+    .Our.Team,
+    .Sign-up,
+    .testimonials-container,
+    .footer-items,
+    .members {
+        width: 95vw;
+    }
+    main {
+        margin-top: 2em;
+    }
+    .Need {
+        padding-bottom: 0;
+    }
+    .member,
+    .testimonial {
+        width: 40%;
+    }
+    .footer-items>section {
+        margin-bottom: 10em;
+    }
+}
+
+@media screen and(min-width:1300px max-width:1920px) {
+    html {
+        font-size: 18px;
+    }
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and(min-width:1920px) {
+    html {
+        font-size: 21px;
+    }
+    body {
+        font-size: 21px;
+    }
+}

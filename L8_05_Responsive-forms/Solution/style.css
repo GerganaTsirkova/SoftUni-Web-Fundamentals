@@ -1,0 +1,116 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+}
+
+html {
+    font: 14px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+body {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    width: 25rem;
+}
+
+body,
+legend,
+label,
+input,
+i {
+    font: inherit;
+}
+
+legend {
+    border: 1px solid gray;
+    padding: 0.5rem 5rem 0.5rem 1rem;
+    background: white;
+}
+
+fieldset {
+    width: 25rem;
+}
+
+fieldset p:first-of-type {
+    margin-top: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset {
+    background: #f2f2f2;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+fieldset i {
+    padding: 0.5rem;
+}
+
+fieldset p {
+    margin: 0 2rem;
+    padding-bottom: 0;
+}
+
+fieldset input {
+    border: 0;
+    outline: none;
+}
+
+.field-input {
+    background: white;
+    display: block;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e6e6e6;
+    margin: 0 2rem 1.5rem 2rem;
+}
+
+.field-input:hover,
+.field-input:focus {
+    border-color: green;
+    color: green;
+}
+
+fieldset input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    margin: 0 0 1.5rem 2rem;
+    background: #404040;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width:600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1440px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1920px) {
+    html {
+        font-size: 21px;
+    }
+}
