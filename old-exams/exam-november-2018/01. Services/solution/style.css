@@ -1,0 +1,124 @@
+@import url("buttons.css");
+@import url("typography.css");
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+html {
+    font: 16px/1.5 'Open Sans', sans-serif;
+    color: #333333;
+    background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4rem 16rem;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 0.4rem;
+}
+
+.text {
+    margin-top: 0.5rem;
+}
+
+hr {
+    border-top: 2px solid #1996A9;
+    width: 80px;
+    margin-bottom: 0;
+}
+
+
+/* main */
+
+.adverts-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adverts-container div {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.basic,
+.professional,
+.business {
+    width: 30%;
+    border: 1px solid #E5E5E5;
+}
+
+
+/*first row */
+
+.type {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.basic>div:nth-child(1),
+.business>:nth-child(1) {
+    background: #333333;
+    border-color: #333333;
+    font-weight: bold;
+}
+
+.professional>div:nth-child(1) {
+    background: #1996A9;
+    border-color: #1996A9;
+    font-weight: bold;
+}
+
+
+/*second row */
+
+.price {
+    color: #333333;
+    background: #F6F6F6;
+    font-size: 18px;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+/*third row */
+
+.description {
+    font-size: 10px;
+    color: #AAB0CA;
+    border-bottom: 1px dotted #E5E5E5;
+    line-height: 1.5;
+    padding: 1em 0;
+}
+
+
+/*middle rows */
+
+.middle {
+    border-bottom: 1px dotted #E5E5E5;
+    color: #666C73;
+}
+
+
+/*last row */
+
+a.button {
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    line-height: 1.2;
+    background: #008CBA;
+    border-radius: 0.3rem;
+}
