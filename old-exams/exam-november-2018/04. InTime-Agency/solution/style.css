@@ -1,0 +1,578 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("buttons.css");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5/ 'Helvetica', serif;
+    color: #2F3539;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+    color: #2F3539;
+}
+
+body {
+    font: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header */
+
+header {
+    margin: 2rem 1rem 0 0;
+    height: 7em;
+    width: 70vw;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-right: auto;
+}
+
+header .logo span:nth-child(1),
+header .logo span:nth-child(2) {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .logo span:nth-child(1) {
+    color: #454545;
+}
+
+header .logo span:nth-child(2) {
+    color: #008CBA;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.nav ul li {
+    margin-right: 1.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.nav ul li:hover,
+.nav ul li:focus {
+    border-bottom: 2px solid #008CBA;
+}
+
+.nav ul li:first-child {
+    margin-left: 1.5rem;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #454545;
+    outline: none;
+}
+
+
+/* main */
+
+
+/* main photo-advert */
+
+.photo-advert {
+    margin-top: 0;
+    display: block;
+    width: 100vw;
+    height: 30em;
+    background: url("../images/slide2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.photo-advert-container {
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    padding: 1.2rem;
+    margin: 10em 0 0 5em;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    height: 35%;
+}
+
+.photo-advert span {
+    display: block;
+    color: white;
+    font-weight: normal;
+    font-family: 'Helvetica', serif;
+    font-size: 2em;
+    margin-bottom: 0.2rem;
+}
+
+.photo-advert input[type="submit"] {
+    background: #008CBA;
+    padding: 0.5rem 2rem;
+    border-radius: 3em;
+    line-height: 1.5;
+    outline: none;
+    margin-top: 1em;
+    font: inherit;
+}
+
+
+/* main wellcome */
+
+.wellcome {
+    text-align: center;
+    height: fit-content;
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wellcome h2,
+.wellcome hr,
+.wellcome p {
+    margin-bottom: 1rem;
+}
+
+.wellcome hr {
+    border-top: 3px solid #008CBA;
+    width: 10%;
+    color: transparent;
+    margin-bottom: 2rem;
+}
+
+.wellcome input {
+    margin-top: 2rem;
+    font: inherit;
+    padding: 0.5rem 2rem;
+    background: #454545;
+    border-radius: 3em;
+    font: inherit;
+}
+
+
+/* main services */
+
+.our-service {
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.our-service h2 {
+    margin-top: 2rem;
+}
+
+.our-service hr {
+    border-bottom: 2px solid #2F3539;
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.services article {
+    width: 30%;
+    height: 550px;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+}
+
+.services article::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+}
+
+.services article img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
+}
+
+.services article h3 {
+    font-size: 1.5em;
+    margin: 5rem 2rem 2rem 2rem;
+}
+
+.services article p {
+    margin: 0 2rem;
+}
+
+.services article input {
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    font: inherit;
+}
+
+
+/* main subscribe */
+
+.subscribe {
+    width: 100%;
+}
+
+.subscribe-content {
+    width: 50%;
+}
+
+.subscribe,
+.subscribe-content {
+    background: #393F43;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe h2 {
+    background: #393F43;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.subscribe hr {
+    width: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.subscribe p {
+    margin-bottom: 1.5rem;
+}
+
+.subscribe-content {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.input-fields {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.input-fields .email {
+    margin-top: 0.5rem;
+    width: 70%;
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+    background: #454545;
+    color: #747474;
+    border-radius: 0.3em;
+    border-color: #747474;
+    font: inherit;
+}
+
+.input-fields .button {
+    margin-top: 0.5rem;
+    width: 25%;
+    color: white;
+    background: #5598CB;
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+    margin-left: 1.5rem;
+    font: inherit;
+    outline: none;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #2F3539;
+}
+
+footer .main-footer {
+    width: 70vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    background: #2F3539;
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+.main-footer p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2rem 2rem 1.5rem 0;
+}
+
+.main-footer ul {
+    list-style-type: none;
+    margin: 1rem 2rem 2rem 0;
+}
+
+.main-footer ul li {
+    margin-bottom: 1rem;
+}
+
+.main-footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .rights-reserved {
+    background: #262B2F;
+    color: white;
+    font-size: 12px;
+    width: 100vw;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 1.5;
+}
+
+section.follow-us ul {
+    display: flex;
+    font-display: space-between;
+}
+
+section.follow-us ul li {
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* media */
+
+@media only screen and (max-width:800px) {
+    html {
+        font-size: 14px
+    }
+    body {
+        font: inherit
+    }
+    header {
+        margin: 2em 0;
+        display: block;
+        width: 100vw
+    }
+    header,
+    header .logo,
+    header .nav,
+    header .nav ul,
+    header .nav li {
+        display: block;
+        text-align: center
+    }
+    header .logo {
+        margin-bottom: 1.5rem
+    }
+    header .nav {
+        margin-bottom: 1rem;
+    }
+    header .nav li {
+        display: block;
+        width: 100%;
+        border-bottom: 2px solid #008CBA;
+        padding-bottom: 0
+    }
+    header .nav li>a {
+        display: block;
+        padding-top: 0.5rem
+    }
+    header .nav li>a:hover {
+        color: white;
+        background: #008CBA
+    }
+    .nav ul li:first-child {
+        margin-left: 0;
+        width: 100%;
+        border-top: 2px solid #008CBA;
+    }
+    .photo-advert {
+        display: flex;
+        margin-top: 7rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo-advert-container {
+        margin: 5em auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo-advert-container h1 {
+        font-size: 14px;
+        width: 90%;
+    }
+    section.photo-advert>section>input {
+        padding: 0.5rem auto;
+        min-width: fit-content;
+    }
+    section.photo-advert>section>h1>span:nth-child(1),
+    section.photo-advert>section>h1>span:nth-child(2) {
+        width: 100%;
+    }
+    .wellcome {
+        margin-top: 7rem;
+    }
+    .services article {
+        display: block;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .subscribe-content {
+        width: 59%;
+        text-align: center;
+        vertical-align: center;
+    }
+    .subscribe-content h2 {
+        min-width: fit-content;
+    }
+    .input-fields {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.subscribe>section {
+        width: 90vw;
+    }
+    .input-fields .button {
+        margin-left: 0;
+        min-width: fit-content;
+        margin-top: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        font: inherit;
+    }
+    .input-fields .email,
+    .input-fields .button {
+        width: 100%;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:800px) {
+    html {
+        font-size: 16px
+    }
+    body {
+        font: inherit
+    }
+    header {
+        width: 90vw
+    }
+    .photo-advert {
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo-advert-container {
+        font-size: 16px;
+        margin: 5em auto;
+        height: fit-content;
+    }
+    .wellcome {
+        margin-top: 2rem;
+    }
+    .services article {
+        display: block;
+        width: 80%;
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .subscribe-content {
+        width: 59%;
+    }
+}
+
+@media only screen and (min-width:1040px) {
+    html {
+        font-size: 18px
+    }
+    body {
+        font: inherit
+    }
+    header {
+        width: 70vw
+    }
+    .photo-advert {
+        margin-top: 0;
+    }
+    .photo-advert-container {
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+    .services article {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    html {
+        font-size: 21px
+    }
+    body {
+        font: inherit
+    }
+    header {
+        width: 70vw
+    }
+    .photo-advert {
+        margin-top: 0;
+    }
+    .photo-advert-container {
+        margin-top: 10em;
+        margin-left: 10em;
+    }
+}
