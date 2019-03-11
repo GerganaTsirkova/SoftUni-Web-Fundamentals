@@ -1,0 +1,180 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+}
+
+html {
+    font: 14px/1.5 'Source Sans Pro', sans-serif;
+}
+
+body {
+    padding: 3rem;
+}
+
+form {
+    width: 25rem;
+}
+
+body,
+legend,
+label,
+input,
+i {
+    font: 14px/1.5 'Source Sans Pro', sans-serif;
+}
+
+legend {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    background: white;
+}
+
+p {
+    margin: 0 2rem;
+    padding-bottom: 0;
+}
+
+p:first-of-type {
+    margin-top: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset {
+    background: #f2f2f2;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+.field-input {
+    background: #EBF0F0;
+    display: block;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e6e6e6;
+    margin: 0 2rem 1.5rem 2rem;
+}
+
+
+/* .field-input:hover,
+.field-input:focus {
+    border-color: #007ACC;
+    color: #007ACC;
+} */
+
+input[type="submit"] {
+    padding: 0.3rem 0.5rem;
+    border: 1px solid gray;
+    margin: 0 0 1.5rem 2rem;
+    font: 14px/1.5 'Source Sans Pro', sans-serif;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    form {
+        width: 25rem;
+    }
+}
