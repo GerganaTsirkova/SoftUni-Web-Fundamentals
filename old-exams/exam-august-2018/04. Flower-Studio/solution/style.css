@@ -1,0 +1,266 @@
+    @import url("reset.css");
+    @import url("buttons.css");
+    @import url("https://fonts.googleapis.com/css?family=PT+Sans");
+    @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+    body {
+        font: 16px/1.5/ "PT sans", sans-serif;
+        color: #5C5C5C;
+    }
+    /* header */
+    
+    header {
+        background: #EDEDED;
+    }
+    
+    nav {
+        margin: 0 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    nav li {
+        margin: 1.5rem 2rem 1.5rem 0;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: #5C5C5C;
+    }
+    
+    .nav-left>li:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-left>li:nth-child(1) a {
+        color: #FA5B3C;
+    }
+    
+    .nav-left>li:nth-child(1)>i {
+        color: #FA5B3C;
+        margin-left: 0.5rem;
+        margin-bottom: 0.7rem;
+        cursor: pointer;
+    }
+    
+    .nav-right li {
+        border-right: 1ps solid #5C5C5C;
+    }
+    /* main  first part*/
+    
+    .image-section {
+        background: url("../img/residential-banner-2.jpg") no-repeat center;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .text-content p:first-child {
+        margin-bottom: 0.5rem;
+    }
+    
+    .text-content h1 {
+        margin-bottom: 2.5rem;
+    }
+    
+    .text-content p:first-child,
+    .text-content h1 {
+        font-size: 2.2em;
+        font-weight: normal;
+    }
+    
+    .text-content p:nth-child(4),
+    .text-content p:nth-child(3) {
+        margin-bottom: 2rem;
+        font-size: 1.2em;
+    }
+    
+    .text-content p:nth-child(3) {
+        width: 370px;
+        text-align: center;
+    }
+    /* 
+    main second part */
+    
+    .how-it-works {
+        margin: 3rem 15vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .how-it-works h3 {
+        color: black;
+        margin-bottom: 3rem;
+    }
+    
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .number {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .number>p,
+    hr {
+        font-size: 2.5em;
+    }
+    
+    .number>p {
+        margin: 1rem;
+        font-weight: bold;
+    }
+    
+    hr {
+        width: 30px;
+        border: 1.5px solid #5C5C5C;
+    }
+    
+    .content {
+        width: 250px;
+        text-align: center;
+    }
+    
+    .content h2 {
+        margin-bottom: 1.5rem;
+    }
+    /* main second part */
+    
+    .gallery {
+        background: #EDEDED;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gallery-wrapper {
+        width: 70vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .gallery img {
+        margin: 1rem;
+    }
+    /* footer */
+    
+    footer {
+        background: #000000;
+        padding: 3rem 15vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer li {
+        cursor: pointer;
+    }
+    
+    .content-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .content-footer ul {
+        text-align: center;
+    }
+    
+    .content-footer ul {
+        list-style-type: none;
+        width: 100px;
+        margin-right: 50px;
+    }
+    /* footer last row */
+    
+    footer>section>ul:nth-child(5) {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer>section>ul:nth-child(4)>li {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer>section>ul:nth-child(5) {
+        width: 230px;
+    }
+    
+    footer>section>ul:nth-child(5)>li {
+        margin-bottom: 10px;
+        cursor: default;
+    }
+    
+    footer>section>ul:nth-child(5)>input[type="email"]:nth-child(2) {
+        line-height: 1;
+        margin-bottom: 1rem;
+        padding: 0.2rem 0.8rem;
+        font: inherit;
+        border: none;
+        border-radius: 0.1rem;
+    }
+    
+    body>footer>section>ul:nth-child(5)>input[type="button"]:nth-child(3) {
+        border: none;
+        line-height: 1;
+        width: 100px;
+        color: white;
+        background: #FA5B3C;
+        padding: 0.5rem 0;
+        border-radius: 0.1rem;
+        outline: none;
+        cursor: pointer;
+    }
+    /* footer bottom row */
+    
+    footer hr {
+        width: 50%;
+        margin: 50px 0;
+    }
+    
+    body>footer>ul {
+        display: flex;
+        list-style-type: none;
+        align-self: center;
+        margin-top: 10px;
+    }
+    
+    body>footer>ul li {
+        border-right: 2px solid #5C5C5C;
+        padding: 0 10px;
+    }
+    
+    body>footer>ul li:last-child {
+        border-right: none;
+    }

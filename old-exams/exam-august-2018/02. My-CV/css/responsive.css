@@ -1,0 +1,142 @@
+/*TODO:*/
+
+@media (max-width:1028) {
+    body {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside,
+    main {
+        width: 90vw;
+    }
+    aside {
+        margin-top: 5%;
+        display: block;
+    }
+    aside #personal-info,
+    aside #skills,
+    aside #languages {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    aside #skills,
+    aside #languages {
+        flex-shrink: 100%;
+    }
+    aside #personal-info {
+        margin-top: 5%;
+        background: #FCFCFC;
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #personal-info h3,
+    #personal-info p {
+        margin-left: 55%;
+    }
+    aside img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25%)
+    }
+    aside hr {
+        display: none;
+    }
+    #main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #work,
+    #education {
+        margin: 2.5% 0 5% 0;
+        padding: 2.5% 5% 2.5% 5%;
+    }
+    #skills,
+    #langauges {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside,
+    main {
+        width: 90vw;
+    }
+    aside {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside img,
+    aside #personal-info,
+    aside #skills,
+    aside #languages {
+        width: 90%;
+    }
+    aside img {
+        margin-top: 5%;
+    }
+    aside #personal-info {
+        background: #FCFCFC;
+    }
+    aside hr {
+        display: none;
+    }
+    #main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #work,
+    #education {
+        margin: 2.5% 0 5% 0;
+        padding: 2.5% 5% 2.5% 5%;
+    }
+    #skills,
+    #langauges {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #education>article:nth-child(2)>div {
+        display: flex;
+        flex-direction: column;
+        background: white;
+    }
+    .uni-img-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    footer {
+        width: 100%;
+    }
+}

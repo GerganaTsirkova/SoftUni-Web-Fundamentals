@@ -1,0 +1,164 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5/ "Roboto", serif;
+}
+
+body,
+input,
+select,
+option,
+label,
+form {
+    font: inherit;
+    font-family: "Roboto", serif;
+    color: #5B5B5B;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-book-container {
+    border: 1px solid #5B5B5B;
+    overflow: hidden;
+    width: 60vw;
+}
+
+.head {
+    height: 3.5rem;
+    background: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head i {
+    font-size: 24px;
+    margin-right: 1rem;
+}
+
+.head h1 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5B5B5B;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    overflow: hidden;
+    height: 100%;
+    border-right: 1px solid #5B5B5B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.left h3 {
+    color: #5B5B5B;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.left p {
+    margin: 2rem 0.4rem 1rem 0.8rem;
+    color: #5B5B5B;
+}
+
+.right {
+    flex: 2;
+    padding: 2rem
+}
+
+.right input,
+.right select {
+    border-radius: 1rem;
+    color: #5B5B5B;
+    padding: 0.4rem
+}
+
+.big,
+.big select {
+    width: 100%;
+}
+
+.big select {
+    padding: 0.5rem;
+    text-align: center;
+    outline: none;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+    align-items: center;
+    /* margin-top: 1rem; */
+    justify-content: flex-start;
+}
+
+.first-row label,
+.second-row label {
+    margin-right: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form>input[type="submit"] {
+    color: white;
+    background: #E34B4A;
+    border: none;
+    padding: 0.7rem;
+    line-height: 1;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.inner {
+    width: 50%;
+    margin-top: 1rem;
+    /* margin: 1rem */
+}
+
+.inner input {
+    width: 200px;
+}
+
+form>section.first-row>section:nth-child(2) {
+    margin-left: 1rem;
+}

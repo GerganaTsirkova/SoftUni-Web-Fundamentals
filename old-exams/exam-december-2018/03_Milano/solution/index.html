@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="ticket-book-container">
+        <section class="head">
+            <i class="fas fa-shopping-cart"></i>
+            <h1>Buy online ticket to Milano</h1>
+        </section>
+        <section class="main">
+            <section class="left">
+                <img src="../img/travel.png" alt="">
+                <h4>Book your ticket NOW!</h4>
+                <p>Start saving straight away with our special online rates.</p>
+            </section>
+            <section class="right">
+                <section class="big">
+                    <select name="place" id="place">
+                        <option value="malpensa">Malpensa</option>
+                        <option value="rome">Rome</option>
+                        <option value="london">London</option>
+                        <option value="sofia">Sofia</option>
+                    </select>
+                </section>
+                <section class="small">
+                    <form action="POST">
+                        <section class="first-row">
+                            <section class="inner">
+                                <label for="entry">Entry</label>
+                                <input type="date" data-date="" data-date-format="mm/dd/yyyy" value="mm/ dd/ yyyy">
+                            </section>
+                            <section class="inner">
+                                <label for="entry">Exit</label>
+                                <input type="date" data-date="" data-date-format="mm/dd/yyyy" value="mm/ dd/ yyyy">
+                            </section>
+                        </section>
+                        <section class="second-row">
+                            <section class="inner">
+                                <label for="entry">Time</label>
+                                <input type="time" name="time" time-format="--:-- --" value="--:-- --">
+                            </section>
+                            <section class="inner">
+                                <label for="entry">Time</label>
+                                <input type="time" name="time" time-format="--:-- --" value="--:-- --">
+                            </section>
+                        </section>
+                        <input type="submit" value="SEARCH">
+                    </form>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>

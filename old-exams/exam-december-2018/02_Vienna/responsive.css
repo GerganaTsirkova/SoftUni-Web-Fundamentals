@@ -1,0 +1,110 @@
+@media only screen and (max-width:600px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    html {
+        box-sizing: border-box;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    body,
+    header,
+    footer,
+    main {
+        width: 100vw;
+    }
+    /* navigation */
+    #top-bar>ul:nth-child(1)>li:nth-child(4) {
+        display: none
+    }
+    #main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #main-menu img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    #main-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #main-menu ul li {
+        flex: 1;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border: 1px solid #BCA5A8;
+        width: 120px;
+        text-align: center;
+    }
+    /* main left aside*/
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    #left-aside {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #left-aside article {
+        border: none;
+    }
+    #news {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+    #news article {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    #news article img {
+        margin-bottom: 1rem;
+    }
+    #news article h3,
+    #news article p {
+        margin: 1rem 0.2rem 1rem 0.3rem;
+    }
+    /* main right aside */
+    #right-aside {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    #right-aside>div:nth-child(1)>h3,
+    #right-aside>div:nth-child(2)>h3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #right-aside>div:nth-child(1)>p,
+    #right-aside>div:nth-child(2)>p {
+        margin-bottom: 0.5rem;
+    }
+    #right-aside>div:nth-child(1)>button,
+    #right-aside>div:nth-child(2)>button {
+        margin-top: 1rem;
+    }
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul {
+        width: 100%;
+    }
+}

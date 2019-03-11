@@ -1,0 +1,21 @@
+/* set box-sizing */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "PT sans", sans-serif;
+}
+
+html {
+    font: 6px/1.5/ "PT sans", sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* reset white-spaces */

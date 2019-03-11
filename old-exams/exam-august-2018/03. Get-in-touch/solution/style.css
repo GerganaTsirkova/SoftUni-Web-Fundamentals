@@ -1,0 +1,155 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("buttons.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+button,
+input,
+select,
+textarea {
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+::-webkit-input-placeholder {
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+:-moz-placeholder {
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+::-moz-placeholder {
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+:-ms-input-placeholder {
+    font: 16px/1.5/ "Montserrat", serif;
+}
+
+body {
+    font: inherit;
+    background: url("../images/bg-01.jpg") center no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+input,
+textarea,
+label,
+legend {
+    font-family: "Montserrat", serif;
+    outline: none;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(132, 106, 221, 0.7);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-form {
+    background: white;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+}
+
+.right legend {
+    color: #333333;
+    padding-left: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+.field-input {
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    background: #E6E6E6;
+    border-color: #E6E6E6;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+input,
+textarea {
+    line-height: 1;
+    border-radius: 1rem;
+    background: #E6E6E6;
+    border: none;
+    width: 300px;
+    padding: 5px;
+}
+
+i {
+    padding: 0 10px;
+    color: #B0B0B1;
+}
+
+textarea {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    border-radius: 1rem;
+    line-height: 1;
+    background: rgb(132, 106, 221);
+    color: white;
+    margin-top: 1.5rem;
+}
+
+
+/* hover efects */
+
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+    background: #333333;
+}
+
+div.field-input:hover i,
+div.field-input:focus i {
+    color: rgb(132, 106, 221);
+}
